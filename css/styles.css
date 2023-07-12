@@ -47,7 +47,7 @@ font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 800;
 line-height: 1.17;
-letter-spacing: 0.03;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
@@ -66,6 +66,11 @@ letter-spacing: 0.02em;
 .header-link:active {
 color: var(--ctas-color);
 text-decoration: underline;
+}
+
+.header-link:hover,
+.header-link:focus {
+color: var(--ctas-color);
 }
 
 .contacts-list {
