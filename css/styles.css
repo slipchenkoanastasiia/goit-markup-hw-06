@@ -43,7 +43,7 @@ list-style: none;
 
 .web {
 color: var(--brand-color-1);
-font-family: Raleway;
+font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 800;
 line-height: 1.17;
@@ -53,12 +53,6 @@ text-transform: uppercase;
 
 .studio {
 color: var(--brand-color-2);
-font-family: Raleway;
-font-size: 18px;
-font-weight: 800;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
 }
 
 .header-link {
@@ -89,7 +83,11 @@ letter-spacing: 0.02em;
 .address-link:active {
  color: var(--ctas-color);
  text-decoration: underline;
+}
 
+.address-link:hover,
+.address-link:focus {
+color: #404BBF;
 }
 
 .main-list{
@@ -103,6 +101,7 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
+text-align: center;
 }
 
 .main-button {
@@ -112,6 +111,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.50;
 letter-spacing: 0.04em;
+cursor: pointer;
 
 background: var(--brand-color-1);
 }
@@ -131,7 +131,7 @@ letter-spacing: 0.02em;
 list-style-type: none;
 }
 
-.wdirections-list {
+.directions-list {
 color: var(--body-text-color);
 font-size: 16px;
 font-weight: 400;
@@ -145,6 +145,8 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
 }
 
 .work-img {
@@ -161,6 +163,8 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
 }
 
 .team-img {
@@ -211,6 +215,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.50;
 letter-spacing: 0.04em;
+cursor: pointer;
 
 border-radius: 4px;
 border: 1px solid var(--accent-color);
