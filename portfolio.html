@@ -13,116 +13,201 @@
 
 </head>
 <body>
-    <header>
-
-        <nav class="list">
-            <a class="web link" href="./index.html">Web<span class="studio">Studio</span></a>
-            <ul class="list">
-                <li><a class="header-link link" href="./index.html">Studio</a></li>
-                <li><a class="header-link link" href="./portfolio.html">Portfolio</a></li>
-                <li><a class="header-link link" href="">Contacts</a></li>
+    <header class="page-header">
+        <div class="container">
+          <nav class="page-nav">
+            <a href="./index.html" class="link-logo link"
+              >Web<span class="span-logo-header">Studio</span></a>
+            <ul class="list-header list">
+              <li><a href="./index.html" class="page-link link">Studio</a></li>
+              <li>
+                <a href="./portfolio.html" class="page-link link">Portfolio</a>
+              </li>
+              <li><a href="" class="page-link link">Contacts</a></li>
             </ul>
-        </nav>
-
-        <address class="contacts-list list">
-            <ul class="list">
-                <li><a class="address-link link" href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a></li>
-                <li><a class="address-link link" href="tel:+110001111111" target="_blank">+11 (000) 111-11-11</a></li>
+          </nav>
+          <address class="header-contacts">
+            <ul class="list-header list">
+              <li>
+                <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+              </li>
             </ul>
-            </address>
-        </header>
-
-    <main>
-        <section>
-            <h1 hidden id="portfolio">Advantages</h1>
-            <ul class="list"> 
-                <li><button class="menu-link" type="button">All</button></li>
-                <li><button class="menu-link" type="button">Web Site</button></li>
-                <li><button class="menu-link" type="button">App</button></li>
-                <li><button class="menu-link" type="button">Design</button></li>
-                <li><button class="menu-link" type="button">Marketing</button></li>
+          </address>
+        </div>
+      </header>
+  
+      <main>
+        <section class="section-portfolio">
+          <div class="container">
+            <h1 class="visually-hidden">Portfolio WebStudio.</h1>
+            <ul class="button-list list">
+              <li>
+                <button type="button" class="button-portfolio button">All</button>
+              </li>
+              <li>
+                <button type="button" class="button-portfolio button">
+                  Web Site
+                </button>
+              </li>
+              <li>
+                <button type="button" class="button-portfolio button">App</button>
+              </li>
+              <li>
+                <button type="button" class="button-portfolio button">
+                  Design
+                </button>
+              </li>
+              <li>
+                <button type="button" class="button-portfolio button">
+                  Marketing
+                </button>
+              </li>
             </ul>
-
-            <ul class="list">
-                <li>
-                    <a class="link" href="#app">
-                        <img src="./images/img8.jpg" alt="visualization of the application" width="360" height="300" />
-                        <h2 class="portfolio-name">Banking App Interface Concept</h2>
-                        <p class="portfolio-text">App</p>
-                    </a>
-                </li>
-
-                <li>
-                    <a class="link" href="#marketing">
-                        <img src="./images/img9.jpg" alt="qr code" width="360" height="300" />
-                        <h2 class="portfolio-name">Cashless Payment</h2>
-                        <p class="portfolio-text">Marketing</p>
-                    </a>
-                </li>
-                
-                <li>
-                    <a class="link" href="#app">
-                        <img src="./images/img10.jpg" alt="laptop and smartphone" width="360" height="300" />
-                        <h2 class="portfolio-name">Meditation App</h2>
-                        <p class="portfolio-text">App</p>
-                    </a>
-                </li>
-
-                <li>
-                    <a class="link" href="#marketing">
-                        <img src="./images/img11.jpg" alt="car and smartphone" width="360" height="300" />
-                        <h2 class="portfolio-name">Taxi Service</h2>
-                        <p class="portfolio-text">Marketing</p>
-                    </a>
-                </li>
-
-                <li>
-                    <a  class="link" href="#design">
-                        <img src="./images/img12.jpg" alt="smartphone" width="360" height="300" />
-                        <h2 class="portfolio-name">Screen Illustrations</h2>
-                        <p class="portfolio-text">Design</p>
-                    </a>
-                </li>
-
-                <li>
-                    <a class="link" href="#marketing">
-                        <img src="./images/img13.jpg" alt="women" width="360" height="300" />
-                        <h2 class="portfolio-name">Online Courses</h2>
-                        <p class="portfolio-text">Marketing</p>
-                    </a>
-                </li>
-
-                <li>
-                    <a class="link" href="#design">
-                        <img src="./images/img14.jpg" alt="visualization for instagram" width="360" height="300" />
-                        <h2 class="portfolio-name">Instagram Stories Concept</h2>
-                        <p class="portfolio-text">Design</p>
-                    </a>
-                </li>
-        
-                <li>
-                    <a class="link" href="#website">
-                        <img src="./images/img15.jpg" alt="woman with vegetables" width="360" height="300" />
-                        <h2 class="portfolio-name">Organic Food</h2>
-                        <p class="portfolio-text">Web Site</p>
-                    </a>
-                </li>
-
-                <li>
-                    <a class="link" href="#website">
-                        <img src="./images/img16.jpg" alt="cup of coffee" width="360" height="300" />
-                        <h2 class="portfolio-name">Fresh Coffee</h2>
-                        <p class="portfolio-text">Web Site</p>
-                    </a>
-                </li>
+  
+            <ul class="list-portfolio list">
+              <li class="item-portfolio">
+                <a class="link">
+                  <img
+                    src="./images/img8.jpg"
+                    alt="Banking app"
+                    width="360"
+                    height="300"
+                  />
+                  <div class="container-portfolio">
+                    <h2 class="title">Banking App Interface Concept</h2>
+                    <p class="text-porfolio">App</p>
+                  </div>
+                </a>
+              </li>
+              <li class="item-portfolio">
+                <a class="link">
+                  <img
+                    src="./images/img9.jpg"
+                    alt="Cashless Payment app"
+                    width="360"
+                    height="300"
+                  />
+                  <div class="container-portfolio">
+                    <h2 class="title">Cashless Payment</h2>
+                    <p class="text-porfolio">Marketing</p>
+                  </div>
+                </a>
+              </li>
+              <li class="item-portfolio">
+                <a class="link">
+                  <img
+                    src="./images/img10.jpg"
+                    alt="Laptop"
+                    width="360"
+                    height="300"
+                  />
+                  <div class="container-portfolio">
+                    <h2 class="title">Meditation App</h2>
+                    <p class="text-porfolio">App</p>
+                  </div>
+                </a>
+              </li>
+              <li class="item-portfolio">
+                <a class="link">
+                  <img
+                    src="./images/img11.jpg"
+                    alt="Car steering wheel"
+                    width="360"
+                    height="300"
+                  />
+                  <div class="container-portfolio">
+                    <h2 class="title">Taxi Service</h2>
+                    <p class="text-porfolio">Marketing</p>
+                  </div>
+                </a>
+              </li>
+              <li class="item-portfolio">
+                <a class="link">
+                  <img
+                    src="./images/img12.jpg"
+                    alt="Mobile screen"
+                    width="360"
+                    height="300"
+                  />
+                  <div class="container-portfolio">
+                    <h2 class="title">Screen Illustrations</h2>
+                    <p class="text-porfolio">Design</p>
+                  </div>
+                </a>
+              </li>
+              <li class="item-portfolio">
+                <a class="link">
+                  <img
+                    src="./images/img13.jpg"
+                    alt="A girl with a phone"
+                    width="360"
+                    height="300"
+                  />
+                  <div class="container-portfolio">
+                    <h2 class="title">Online Courses</h2>
+                    <p class="text-porfolio">Marketing</p>
+                  </div>
+                </a>
+              </li>
+              <li class="item-portfolio">
+                <a class="link">
+                  <img
+                    src="./images/img14.jpg"
+                    alt="Instagram design"
+                    width="360"
+                    height="300"
+                  />
+                  <div class="container-portfolio">
+                    <h2 class="title">Instagram Stories Concept</h2>
+                    <p class="text-porfolio">Design</p>
+                  </div>
+                </a>
+              </li>
+              <li class="item-portfolio">
+                <a class="link">
+                  <img
+                    src="./images/img15.jpg"
+                    alt="Food in a bag"
+                    width="360"
+                    height="300"
+                  />
+                  <div class="container-portfolio">
+                    <h2 class="title">Organic Food</h2>
+                    <p class="text-porfolio">Web Site</p>
+                  </div>
+                </a>
+              </li>
+              <li class="item-portfolio">
+                <a class="link">
+                  <img
+                    src="./images/img16.jpg"
+                    alt="Coffee"
+                    width="360"
+                    height="300"
+                  />
+                  <div class="container-portfolio">
+                    <h2 class="title">Fresh Coffee</h2>
+                    <p class="text-porfolio">Web Site</p>
+                  </div>
+                </a>
+              </li>
             </ul>
+          </div>
         </section>
-       
-    </main>
-
-    <footer class="increase">
-        <a class="web link" href="./index.html">Web<span class="studio-foot link">Studio</span></a>
-        <p class="increase-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-    </footer>
-</body>
-</html>
+      </main>
+  
+      <footer class="footer">
+        <div class="container">
+          <a href="./index.html" class="link-logo-footer link">Web<span class="span-logo-footer">Studio</span></a>
+          <p class="text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+      </footer>
+    </body>
+  </html>
+  
