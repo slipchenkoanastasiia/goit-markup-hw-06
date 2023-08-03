@@ -765,13 +765,13 @@ color: var(--oceancolor);
   margin-bottom: 24px;
 }
 
-.modal-form input:checked + .policy {
+.modal-form input[type="checkbox"]:checked + .policy {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD; 
 }
 
-input:checked + .policy {
+.modal-form input[type="checkbox"]:checked + span {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD; 
