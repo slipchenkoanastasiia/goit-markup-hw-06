@@ -765,7 +765,7 @@ color: var(--oceancolor);
   margin-bottom: 24px;
 }
 
-input:checked + .policy .check-privacy {
+.modal-form input:checked + .policy {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD; 
