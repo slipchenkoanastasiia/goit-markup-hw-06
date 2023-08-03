@@ -771,6 +771,12 @@ color: var(--oceancolor);
   fill: #F4F4FD; 
 }
 
+input:checked + .policy {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD; 
+}
+
 .submit-button {
   display: block;
   width: 169px;
