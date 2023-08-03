@@ -765,17 +765,11 @@ color: var(--oceancolor);
   margin-bottom: 24px;
 }
 
-.check-input:checked + .policy {
-  background-color: #404bbf;
-  border: none;
-  fill: #F4F4FD; 
-}
-
 input:checked + span {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD; 
-} 
+}
 
 .submit-button {
   display: block;
