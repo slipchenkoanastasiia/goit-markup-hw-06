@@ -675,8 +675,8 @@ color: var(--oceancolor);
   background-color: transparent;
   border-radius: 4px;
   outline: transparent;
-  border: 1px solid var(--herobackground, rgba(46, 47, 66, 0.40));
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus {
@@ -725,7 +725,7 @@ color: var(--oceancolor);
 }
 
 .textarea:focus {
-  border-color: var(--herobackground);
+  border-color: #4D5AE5; 
 }
 
 .textarea:focus::placeholder {
@@ -753,15 +753,22 @@ color: var(--oceancolor);
   align-items: center;
   justify-content: center; 
   fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .privacy-policy-link {
-  color: var(--iriscolor);
+  color: #4d5ae5; 
 }
 
 .check-input {
   margin-top: 16px;
   margin-bottom: 24px;
+}
+
+.check-input:checked + .policy {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD; 
 }
 
 .submit-button {
@@ -782,6 +789,8 @@ color: var(--oceancolor);
   color: var(--whitebackground);
   text-align: center;
   cursor: pointer;
+  min-width: 169px;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .close-button {
