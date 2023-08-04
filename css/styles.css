@@ -649,7 +649,7 @@ color: var(--oceancolor);
 }
 
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 24px; 
 }
 
 .modals-field {
