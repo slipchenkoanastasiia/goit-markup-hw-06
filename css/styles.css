@@ -656,6 +656,10 @@ color: var(--oceancolor);
   margin-bottom: 24px;
 }
 
+.mod-field {
+  margin-bottom: 16px
+}
+
 .modal-label {
   display: block;
   font-size: 12px;
